@@ -4,15 +4,17 @@ import SecondComponent from './component/learning-examples/SecondComponent';
 import ThirdComponent from './component/learning-examples/ThirdComponent';
 import CounterButton from './component/counter/Counter';
 import Counter from './component/counter/Counter';
-
+import TodoApp from './component/todo/TodoApp';
 import logo from './logo.svg';
 import './App.css';
+import './bootstrap.css';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-           <Counter />
+           {/*<Counter />*/}
+           <TodoApp />
       </div>
     );
   }
