@@ -1,0 +1,12 @@
+package com.todoapp.rest.webservices.restfulwebservices;
+
+public class HelloWorldBean {
+
+	
+	public HelloWorldBean(String message) {
+		// TODO Auto-generated constructor stub
+		this.message = message;
+	}
+	
+
+}

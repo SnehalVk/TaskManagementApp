@@ -1,0 +1,13 @@
+package com.todoapp.rest.webservices.restfulwebservices;
+
+// Below is a Controller
+public class HelloWorldController {
+	
+	//GET
+	//URI -/hello-world
+	//method - "Hello World"
+	public String helloWorld(){
+		return "Hello World!";
+	}
+	
+}
