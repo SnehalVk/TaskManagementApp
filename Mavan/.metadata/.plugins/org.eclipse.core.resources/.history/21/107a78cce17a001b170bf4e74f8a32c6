@@ -1,0 +1,6 @@
+package com.todoapp.rest.webservices.restfulwebservices;
+
+public class BcryptEncoderTest {
+	BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+
+}

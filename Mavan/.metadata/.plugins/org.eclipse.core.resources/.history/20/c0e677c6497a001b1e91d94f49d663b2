@@ -1,0 +1,5 @@
+
+logging.level.org.springframework = debug
+
+spring.security.user.name=snehal
+spring.security.user.password=123

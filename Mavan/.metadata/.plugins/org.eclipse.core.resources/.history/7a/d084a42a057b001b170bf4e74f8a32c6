@@ -1,0 +1,8 @@
+insert into todo(id, username. description, target_date. is_done)
+values(10001, 'in28minutes','database1', sysdate(), false);
+
+insert into todo(id, username. description, target_date. is_done)
+values(10002, 'in28minutes','database2', sysdate(), false);
+
+insert into todo(id, username. description, target_date. is_done)
+values(10003, 'in28minutes','database3', sysdate(), false);

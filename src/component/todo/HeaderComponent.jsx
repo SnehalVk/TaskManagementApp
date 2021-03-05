@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import AuthenticationService from './AuthenticationService.js'
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import { withRouter} from 'react-router'
 
 // class Header component

@@ -1,0 +1,12 @@
+package com.todoapp.rest.webservices.restfulwebservices.basic.auth;
+
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+public class SpringSecurityConfigurationBasicAuth extends WebSecurityConfigurerAdapter{
+
+	protected void configure(HttpSecurity http) throws Exception {
+		http.authorizeRequests((requests) -> requests.anyRequest().authenticated());
+		http.formLogin();
+		http.httpBasic();
+	}
+}

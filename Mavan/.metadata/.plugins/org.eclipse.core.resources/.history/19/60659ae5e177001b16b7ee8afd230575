@@ -1,0 +1,6 @@
+package com.todoapp.rest.webservices.restfulwebservices;
+
+@RestController
+public class TodoResource {
+
+}

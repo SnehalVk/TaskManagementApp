@@ -1,0 +1,10 @@
+package com.todoapp.rest.webservices.restfulwebservices.todo;
+
+public class Todo {
+
+	private long id;
+	private String username;
+	private String description;
+	private Date targetDate;
+	private boolean isDone;
+}

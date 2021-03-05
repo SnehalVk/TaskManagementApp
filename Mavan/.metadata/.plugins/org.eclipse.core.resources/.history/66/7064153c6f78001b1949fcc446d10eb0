@@ -1,0 +1,5 @@
+package com.todoapp.rest.webservices.restfulwebservices.todo;
+
+public class TodoHardcodedService {
+
+}
